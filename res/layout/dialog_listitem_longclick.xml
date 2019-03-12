@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bgLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteOpacity"
+    android:gravity="center" >
+    
+    <LinearLayout 
+        android:id="@+id/menuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_squre_bold">
+        
+        <Button
+            android:id="@+id/btn_Edit"
+            android:layout_width="@dimen/DialogButtonWidth"
+            android:layout_height="@dimen/DialogButtonHeight"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_squre"
+            android:text="@string/Edit"
+            android:textColor="@color/BlackText" />
+        
+        <Button
+            android:id="@+id/btn_Remove"
+            android:layout_width="@dimen/DialogButtonWidth"
+            android:layout_height="@dimen/DialogButtonHeight"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_squre"
+            android:text="@string/Remove"
+            android:textColor="@color/BlackText" />
+        
+        <Button
+            android:id="@+id/btn_Clipboard"
+            android:layout_width="@dimen/DialogButtonWidth"
+            android:layout_height="@dimen/DialogButtonHeight"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_squre"
+            android:text="@string/Clipboard"
+            android:textColor="@color/BlackText" />
+        
+        <Button
+            android:id="@+id/btn_Close"
+            android:layout_width="@dimen/DialogButtonWidth"
+            android:layout_height="@dimen/DialogButtonHeight"
+            android:background="@drawable/btn_squre"
+            android:text="@string/Close"
+            android:textColor="@color/BlackText" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

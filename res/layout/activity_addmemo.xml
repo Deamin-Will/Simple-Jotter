@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_squre"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/SmallBarHeight"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/Title"
+            android:textColor="@color/GrayText"
+            android:textSize="@dimen/MiddleTextHeight" />
+
+        <EditText
+            android:id="@+id/edt_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:inputType="textMultiLine"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/MiddleTextHeight"
+            android:textColor="@color/GrayText"
+            android:background="@drawable/bg_squre"
+            android:hint="@string/hello_world">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_squre"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Memo"
+            android:textColor="@color/GrayText"
+            android:textSize="@dimen/MiddleTextHeight" />
+
+        <Button
+            android:id="@+id/btn_Add"
+            android:layout_width="@dimen/PlainButtonWidth"
+            android:layout_height="@dimen/PlainButtonHeight"
+            android:gravity="center"
+            android:text="@string/Add"
+            android:background="@drawable/btn_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:orientation="vertical" >
+        <EditText
+            android:id="@+id/edt_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textMultiLine"
+            android:background="@drawable/bg_squre"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:gravity="top|left"
+            android:hint="Write a memo."
+            android:textColor="@color/GrayText">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+</LinearLayout>

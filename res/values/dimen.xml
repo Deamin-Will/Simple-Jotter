@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AppBarHeight">60dp</dimen>
+    <dimen name="SmallBarHeight">40dp</dimen>
+    <dimen name="LargeTextHeight">25dp</dimen>
+   	<dimen name="MiddleTextHeight">18sp</dimen>
+   	<dimen name="SmallTextHeight">13sp</dimen>
+   	<dimen name="SmallButtonTextHeight">10sp</dimen>
+   	<dimen name="PlainButtonWidth">80dp</dimen>
+   	<dimen name="PlainButtonHeight">35dp</dimen>
+   	<dimen name="DialogButtonHeight">50dp</dimen>
+   	<dimen name="DialogButtonWidth">200dp</dimen>
+   	<dimen name="PlainIconWidth">35dp</dimen>
+   	<dimen name="PlainIconHeight">35dp</dimen>
+   	<dimen name="TAG_POSITION">200dp</dimen>
+</resources>

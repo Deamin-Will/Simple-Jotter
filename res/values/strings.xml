@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppName">Simple Memo</string>
+    <string name="Memo">Memo</string>
+    <string name="Title">Title</string>
+    <string name="Add">Add</string>
+    <string name="Save">Save</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Remove">Remove</string>
+    <string name="Close">Close</string>
+    <string name="Clipboard">To Clipboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Toast_Add_Alert">Fields is empty.</string>
+    <string name="Toast_Delete_Before">Long press will delete this memo.</string>
+    <string name="Toast_Clipboard_Copy">Copy to clipboard.</string>
+    <string name="TAG_ID">TAG_ID</string>
+    <string name="BottomMsg">By Deamin Will..! </string>
+</resources>
